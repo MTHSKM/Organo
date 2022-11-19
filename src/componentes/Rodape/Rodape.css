@@ -1,0 +1,41 @@
+.footer {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+.footer ul li .wp {
+    width: 32px;
+    height: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer p .aluno{
+    color: #F0CAA3;
+}
+
+.footer p .instrutor{
+    color: #3B185F;
+}
+
+.footer p .plataforma{
+    color: #00005C;
+}
+
+.footer p a{
+    text-decoration: none;
+}
